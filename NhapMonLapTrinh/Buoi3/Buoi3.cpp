@@ -17,7 +17,15 @@ void cau2() {
 	cin >> phucap;
 	cout << "thuc lanh : " << (luong + phucap) * 0.9 << endl;
 }
+void cau3() {
+	int cannang, chieucao;
+	cout << " Nhap can nang (kg) : ";
+	cin >> cannang;
+	cout << " nhap chieu cao (m): ";
+	cin >> chieucao;
+	cout << "BMI: " << cannang / (chieucao * chieucao) << endl;
+}
 int main()
 {
-	cau2();
+	cau3();
 }
