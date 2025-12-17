@@ -84,6 +84,7 @@ void cau5() {
 }
 void cau6() {
 	double a, b, c;
+	cin >> a >> b >> c;
 	if (a == 0) {
 		if (b == 0) {
 			if (c == 0)
@@ -92,8 +93,9 @@ void cau6() {
 				cout << "phuong trinh vo nghiem" << endl;
 		}
 		else {
-			cout << (-c / b) << endl;
+			cout << (-c / a) << endl;
 		}
+	    }
 	else  {
 		double delta = b * b - 4 * a * c;
 		if (delta < 0) {
@@ -110,7 +112,6 @@ void cau6() {
 			cout << " x1 = " << x1 << endl;
 			cout << " x2 = " << x2 << endl;
 		}
-	}
 	}
 }
 
